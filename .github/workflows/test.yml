@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest #VM where all the steps were executed.
         steps:
             - name: Get the code
-              uses: action/checkout@v4  #[https://github.com/marketplace/actions/checkout]
+              uses: actions/checkout@v4  #[https://github.com/marketplace/actions/checkout]
             - name: Install NodeJs # before installing check the list of software installed on a selected image. 
               uses: actions/setup-node@v4
               with:
